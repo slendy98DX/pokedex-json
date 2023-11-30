@@ -1,963 +1,1233 @@
- {
-      "num": 387,
-      "img": "https://example.com/pokemon387.png",
-      "name": "Turtwig",
-      "type": ["Grass"],
-      "height": 0.4,
-      "weight": 10.2,
-      "description": "A Grass-type Pokémon that resembles a small turtle."
-    },
-    {
-      "num": 388,
-      "img": "https://example.com/pokemon388.png",
-      "name": "Grotle",
-      "type": ["Grass"],
-      "height": 1.1,
-      "weight": 97,
-      "description": "The evolved form of Turtwig, a Grass-type Pokémon with a tree on its back."
-    },
-    {
-      "num": 389,
-      "img": "https://example.com/pokemon389.png",
-      "name": "Torterra",
-      "type": ["Grass", "Ground"],
-      "height": 2.2,
-      "weight": 310,
-      "description": "The final evolution of Turtwig, a Grass/Ground-type Pokémon with a vast landscape on its back."
-    },
-    {
-      "num": 390,
-      "img": "https://example.com/pokemon390.png",
-      "name": "Chimchar",
-      "type": ["Fire"],
-      "height": 0.5,
-      "weight": 6.2,
-      "description": "A Fire-type Pokémon known for the flame on its tail."
-    },
-    {
-      "num": 391,
-      "img": "https://example.com/pokemon391.png",
-      "name": "Monferno",
-      "type": ["Fire", "Fighting"],
-      "height": 0.9,
-      "weight": 22,
-      "description": "The evolved form of Chimchar, a Fire/Fighting-type Pokémon with fiery punches."
-    },
-    {
-      "num": 392,
-      "img": "https://example.com/pokemon392.png",
-      "name": "Infernape",
-      "type": ["Fire", "Fighting"],
-      "height": 1.2,
-      "weight": 55,
-      "description": "The final evolution of Chimchar, a Fire/Fighting-type Pokémon skilled in martial arts."
-    },
-    {
-      "num": 393,
-      "img": "https://example.com/pokemon393.png",
-      "name": "Piplup",
-      "type": ["Water"],
-      "height": 0.4,
-      "weight": 5.2,
-      "description": "A Water-type Pokémon that resembles a penguin with a blue crown."
-    },
-    {
-      "num": 394,
-      "img": "https://example.com/pokemon394.png",
-      "name": "Prinplup",
-      "type": ["Water"],
-      "height": 0.8,
-      "weight": 23,
-      "description": "The evolved form of Piplup, a Water-type Pokémon with a more regal appearance."
-    },
-    {
-      "num": 395,
-      "img": "https://example.com/pokemon395.png",
-      "name": "Empoleon",
-      "type": ["Water", "Steel"],
-      "height": 1.7,
-      "weight": 84.5,
-      "description": "The final evolution of Piplup, a Water/Steel-type Pokémon with a trident-like beak."
-    },
-    {
-      "num": 396,
-      "img": "https://example.com/pokemon396.png",
-      "name": "Starly",
-      "type": ["Normal", "Flying"],
-      "height": 0.3,
-      "weight": 2,
-      "description": "A Normal/Flying-type Pokémon known for its sharp beak and keen eyesight."
-    },
-    {
-      "num": 397,
-      "img": "https://example.com/pokemon397.png",
-      "name": "Staravia",
-      "type": ["Normal", "Flying"],
-      "height": 0.6,
-      "weight": 15.5,
-      "description": "The evolved form of Starly, a Normal/Flying-type Pokémon with a more impressive wingspan."
-    },
-    {
-      "num": 398,
-      "img": "https://example.com/pokemon398.png",
-      "name": "Staraptor",
-      "type": ["Normal", "Flying"],
-      "height": 1.2,
-      "weight": 24.9,
-      "description": "The final evolution of Starly, a powerful Normal/Flying-type Pokémon with a fierce appearance."
-    },
-    {
-      "num": 399,
-      "img": "https://example.com/pokemon399.png",
-      "name": "Bidoof",
-      "type": ["Normal"],
-      "height": 0.5,
-      "weight": 20,
-      "description": "A simple Normal-type Pokémon known for its large front teeth."
-    },
-    {
-      "num": 400,
-      "img": "https://example.com/pokemon400.png",
-      "name": "Bibarel",
-      "type": ["Normal", "Water"],
-      "height": 1,
-      "weight": 31.5,
-      "description": "The evolved form of Bidoof, a Normal/Water-type Pokémon with strong gnawing abilities."
-    },
-    {
-      "num": 401,
-      "img": "https://example.com/pokemon401.png",
-      "name": "Kricketot",
-      "type": ["Bug"],
-      "height": 0.3,
-      "weight": 2.2,
-      "description": "A Bug-type Pokémon known for its chirping sound that changes in pitch."
-    },
-    {
-      "num": 402,
-      "img": "https://example.com/pokemon402.png",
-      "name": "Kricketune",
-      "type": ["Bug"],
-      "height": 1,
-      "weight": 25.5,
-      "description": "The evolved form of Kricketot, a Bug-type Pokémon that creates melodies with its long antennae."
-    },
-    {
-      "num": 403,
-      "img": "https://example.com/pokemon403.png",
-      "name": "Shinx",
-      "type": ["Electric"],
-      "height": 0.5,
-      "weight": 9.5,
-      "description": "An Electric-type Pokémon with a keen sense of hearing and a powerful roar."
-    },
-    {
-      "num": 404,
-      "img": "https://example.com/pokemon404.png",
-      "name": "Luxio",
-      "type": ["Electric"],
-      "height": 0.9,
-      "weight": 30.5,
-      "description": "The evolved form of Shinx, an Electric-type Pokémon with increased electrical power."
-    },
-    {
-      "num": 405,
-      "img": "https://example.com/pokemon405.png",
-      "name": "Luxray",
-      "type": ["Electric"],
-      "height": 1.4,
-      "weight": 42,
-      "description": "The final evolution of Shinx, a powerful Electric-type Pokémon with a majestic appearance."
-    },
-    {
-      "num": 406,
-      "img": "https://example.com/pokemon406.png",
-      "name": "Budew",
-      "type": ["Grass", "Poison"],
-      "height": 0.2,
-      "weight": 1.2,
-      "description": "A Grass/Poison-type Pokémon that blooms into a beautiful flower when it evolves."
-    },
-    {
-      "num": 407,
-      "img": "https://example.com/pokemon407.png",
-      "name": "Roserade",
-      "type": ["Grass", "Poison"],
-      "height": 0.9,
-      "weight": 14.5,
-      "description": "The evolved form of Budew, a Grass/Poison-type Pokémon that releases a pleasant fragrance."
-    },
-    {
-      "num": 408,
-      "img": "https://example.com/pokemon408.png",
-      "name": "Cranidos",
-      "type": ["Rock"],
-      "height": 0.9,
-      "weight": 31.5,
-      "description": "A Rock-type Pokémon with a hard skull, known for its powerful headbutts."
-    },
-    {
-      "num": 409,
-      "img": "https://example.com/pokemon409.png",
-      "name": "Rampardos",
-      "type": ["Rock"],
-      "height": 1.6,
-      "weight": 102.5,
-      "description": "The evolved form of Cranidos, a Rock-type Pokémon with an even harder skull."
-    },
-    {
-      "num": 410,
-      "img": "https://example.com/pokemon410.png",
-      "name": "Shieldon",
-      "type": ["Rock", "Steel"],
-      "height": 0.5,
-      "weight": 57,
-      "description": "A Rock/Steel-type Pokémon with a protective face, often found in ancient fossils."
-    },
-    {
-      "num": 411,
-      "img": "https://example.com/pokemon411.png",
-      "name": "Bastiodon",
-      "type": ["Rock", "Steel"],
-      "height": 1.3,
-      "weight": 149.5,
-      "description": "The evolved form of Shieldon, a Rock/Steel-type Pokémon with a sturdy shield-like face."
-    },
-    {
-      "num": 412,
-      "img": "https://example.com/pokemon412.png",
-      "name": "Burmy",
-      "type": ["Bug"],
-      "height": 0.2,
-      "weight": 3.4,
-      "description": "A Bug-type Pokémon that takes on different appearances based on its surroundings."
-    },
-    {
-      "num": 413,
-      "img": "https://example.com/pokemon413.png",
-      "name": "Wormadam",
-      "type": ["Bug", "Grass"],
-      "height": 0.5,
-      "weight": 6.5,
-      "description": "The evolved form of Burmy, a Bug/Grass-type Pokémon with a cloak made of leaves."
-    },
-    {
-      "num": 414,
-      "img": "https://example.com/pokemon414.png",
-      "name": "Mothim",
-      "type": ["Bug", "Flying"],
-      "height": 0.9,
-      "weight": 23.3,
-      "description": "The evolved form of Burmy, a Bug/Flying-type Pokémon that is attracted to light."
-    },
-    {
-      "num": 415,
-      "img": "https://example.com/pokemon415.png",
-      "name": "Combee",
-      "type": ["Bug", "Flying"],
-      "height": 0.3,
-      "weight": 5.5,
-      "description": "A Bug/Flying-type Pokémon that forms colonies with a single female as the leader."
-    },
-    {
-      "num": 416,
-      "img": "https://example.com/pokemon416.png",
-      "name": "Vespiquen",
-      "type": ["Bug", "Flying"],
-      "height": 1.2,
-      "weight": 38.5,
-      "description": "The evolved form of Combee, a Bug/Flying-type Pokémon known for its protective nature."
-    },
-    {
-      "num": 417,
-      "img": "https://example.com/pokemon417.png",
-      "name": "Pachirisu",
-      "type": ["Electric"],
-      "height": 0.4,
-      "weight": 3.9,
-      "description": "An Electric-type Pokémon with a fluffy tail that generates electrical energy."
-    },
-    {
-      "num": 418,
-      "img": "https://example.com/pokemon418.png",
-      "name": "Buizel",
-      "type": ["Water"],
-      "height": 0.7,
-      "weight": 29.5,
-      "description": "A Water-type Pokémon that is known for its swift swimming and flotation sacs."
-    },
-    {
-      "num": 419,
-      "img": "https://example.com/pokemon419.png",
-      "name": "Floatzel",
-      "type": ["Water"],
-      "height": 1.1,
-      "weight": 33.5,
-      "description": "The evolved form of Buizel, a Water-type Pokémon that moves gracefully in the water."
-    },
-    {
-      "num": 420,
-      "img": "https://example.com/pokemon420.png",
-      "name": "Cherubi",
-      "type": ["Grass"],
-      "height": 0.4,
-      "weight": 3.3,
-      "description": "A Grass-type Pokémon with a small cherry on its head, which grows into a larger cherry."
-    },
-    {
-      "num": 421,
-      "img": "https://example.com/pokemon421.png",
-      "name": "Cherrim",
-      "type": ["Grass"],
-      "height": 0.5,
-      "weight": 9.3,
-      "description": "The evolved form of Cherubi, a Grass-type Pokémon that changes appearance based on sunlight."
-    },
-    {
-      "num": 422,
-      "img": "https://example.com/pokemon422.png",
-      "name": "Shellos",
-      "type": ["Water"],
-      "height": 0.3,
-      "weight": 6.3,
-      "description": "A Water-type Pokémon that has different forms based on its habitat."
-    },
-    {
-      "num": 423,
-      "img": "https://example.com/pokemon423.png",
-      "name": "Gastrodon",
-      "type": ["Water", "Ground"],
-      "height": 0.9,
-      "weight": 29.9,
-      "description": "The evolved form of Shellos, a Water/Ground-type Pokémon with a unique sea slug appearance."
-    },
-    {
-      "num": 424,
-      "img": "https://example.com/pokemon424.png",
-      "name": "Ambipom",
-      "type": ["Normal"],
-      "height": 1.2,
-      "weight": 20.3,
-      "description": "The evolved form of Aipom, a Normal-type Pokémon with two tails and hand-like extensions."
-    },
-    {
-      "num": 425,
-      "img": "https://example.com/pokemon425.png",
-      "name": "Drifloon",
-      "type": ["Ghost", "Flying"],
-      "height": 0.4,
-      "weight": 1.2,
-      "description": "A Ghost/Flying-type Pokémon that appears to be a drifting balloon with a string."
-    },
-    {
-      "num": 426,
-      "img": "https://example.com/pokemon426.png",
-      "name": "Drifblim",
-      "type": ["Ghost", "Flying"],
-      "height": 1.2,
-      "weight": 15,
-      "description": "The evolved form of Drifloon, a Ghost/Flying-type Pokémon with a larger balloon body."
-    },
-    {
-      "num": 427,
-      "img": "https://example.com/pokemon427.png",
-      "name": "Buneary",
-      "type": ["Normal"],
-      "height": 0.4,
-      "weight": 5.5,
-      "description": "A Normal-type Pokémon known for its long ears and cute appearance."
-    },
-    {
-      "num": 428,
-      "img": "https://example.com/pokemon428.png",
-      "name": "Lopunny",
-      "type": ["Normal"],
-      "height": 1.2,
-      "weight": 33.3,
-      "description": "The evolved form of Buneary, a Normal-type Pokémon with increased speed and elegance."
-    },
-    {
-      "num": 429,
-      "img": "https://example.com/pokemon429.png",
-      "name": "Mismagius",
-      "type": ["Ghost"],
-      "height": 0.9,
-      "weight": 4.4,
-      "description": "The evolved form of Misdreavous, a Ghost-type Pokémon known for its magical abilities."
-    },
-    {
-      "num": 430,
-      "img": "https://example.com/pokemon430.png",
-      "name": "Honchkrow",
-      "type": ["Dark", "Flying"],
-      "height": 0.9,
-      "weight": 27.3,
-      "description": "The evolved form of Murkrow, a Dark/Flying-type Pokémon with a sinister appearance."
-    },
-    {
-      "num": 431,
-      "img": "https://example.com/pokemon431.png",
-      "name": "Glameow",
-      "type": ["Normal"],
-      "height": 0.5,
-      "weight": 3.9,
-      "description": "A Normal-type Pokémon with a sleek and feline appearance."
-    },
-    {
-      "num": 432,
-      "img": "https://example.com/pokemon432.png",
-      "name": "Purugly",
-      "type": ["Normal"],
-      "height": 1,
-      "weight": 43.8,
-      "description": "The evolved form of Glameow, a Normal-type Pokémon with a more robust and fierce demeanor."
-    },
-    {
-      "num": 433,
-      "img": "https://example.com/pokemon433.png",
-      "name": "Chingling",
-      "type": ["Psychic"],
-      "height": 0.2,
-      "weight": 0.6,
-      "description": "A Psychic-type Pokémon that is known for its gentle and soothing chime."
-    },
-    {
-      "num": 434,
-      "img": "https://example.com/pokemon434.png",
-      "name": "Stunky",
-      "type": ["Poison", "Dark"],
-      "height": 0.4,
-      "weight": 19.2,
-      "description": "A Poison/Dark-type Pokémon with a foul odor that acts as a defense mechanism."
-    },
-    {
-      "num": 435,
-      "img": "https://example.com/pokemon435.png",
-      "name": "Skuntank",
-      "type": ["Poison", "Dark"],
-      "height": 1,
-      "weight": 38,
-      "description": "The evolved form of Stunky, a Poison/Dark-type Pokémon that sprays a noxious fluid as a defensive move."
-    },
-    {
-      "num": 436,
-      "img": "https://example.com/pokemon436.png",
-      "name": "Bronzor",
-      "type": ["Steel", "Psychic"],
-      "height": 0.5,
-      "weight": 60.5,
-      "description": "A Steel/Psychic-type Pokémon with a metallic body that reflects psychic waves."
-    },
-    {
-      "num": 437,
-      "img": "https://example.com/pokemon437.png",
-      "name": "Bronzong",
-      "type": ["Steel", "Psychic"],
-      "height": 1.3,
-      "weight": 187,
-      "description": "The evolved form of Bronzor, a Steel/Psychic-type Pokémon that controls bells with its psychic powers."
-    },
-    {
-      "num": 438,
-      "img": "https://example.com/pokemon438.png",
-      "name": "Bonsly",
-      "type": ["Rock"],
-      "height": 0.5,
-      "weight": 15,
-      "description": "A Rock-type Pokémon that resembles a small bonsai tree."
-    },
-    {
-      "num": 439,
-      "img": "https://example.com/pokemon439.png",
-      "name": "Mime Jr.",
-      "type": ["Psychic", "Fairy"],
-      "height": 0.6,
-      "weight": 13,
-      "description": "A Psychic/Fairy-type Pokémon that mimics the movements of others to learn its own pantomime."
-    },
-    {
-      "num": 440,
-      "img": "https://example.com/pokemon440.png",
-      "name": "Happiny",
-      "type": ["Normal"],
-      "height": 0.6,
-      "weight": 24.4,
-      "description": "A Normal-type Pokémon that is often seen carrying an egg to bring happiness to others."
-    },
-    {
-      "num": 441,
-      "img": "https://example.com/pokemon441.png",
-      "name": "Chatot",
-      "type": ["Normal", "Flying"],
-      "height": 0.5,
-      "weight": 1.9,
-      "description": "A Normal/Flying-type Pokémon that mimics human speech and sound patterns."
-    },
-    {
-      "num": 442,
-      "img": "https://example.com/pokemon442.png",
-      "name": "Spiritomb",
-      "type": ["Ghost", "Dark"],
-      "height": 1,
-      "weight": 108,
-      "description": "A Ghost/Dark-type Pokémon that is formed by 108 spirits trapped in an Odd Keystone."
-    },
-    {
-      "num": 443,
-      "img": "https://example.com/pokemon443.png",
-      "name": "Gible",
-      "type": ["Dragon", "Ground"],
-      "height": 0.7,
-      "weight": 20.5,
-      "description": "A Dragon/Ground-type Pokémon that loves to bite and dig."
-    },
-    {
-      "num": 444,
-      "img": "https://example.com/pokemon444.png",
-      "name": "Gabite",
-      "type": ["Dragon", "Ground"],
-      "height": 1.4,
-      "weight": 56,
-      "description": "The evolved form of Gible, a Dragon/Ground-type Pokémon with strong jaws and a love for digging."
-    },
-    {
-      "num": 445,
-      "img": "https://example.com/pokemon445.png",
-      "name": "Garchomp",
-      "type": ["Dragon", "Ground"],
-      "height": 1.9,
-      "weight": 95,
-      "description": "The final evolution of Gible, a Dragon/Ground-type Pokémon with powerful jaws and wings for flight."
-    },
-    {
-      "num": 446,
-      "img": "https://example.com/pokemon446.png",
-      "name": "Munchlax",
-      "type": ["Normal"],
-      "height": 0.6,
-      "weight": 105,
-      "description": "A Normal-type Pokémon that is the pre-evolution of Snorlax, known for its insatiable appetite."
-    },
-    {
-      "num": 447,
-      "img": "https://example.com/pokemon447.png",
-      "name": "Riolu",
-      "type": ["Fighting"],
-      "height": 0.7,
-      "weight": 20.2,
-      "description": "A Fighting-type Pokémon that is the pre-evolution of Lucario, known for its strong sense of justice."
-    },
-    {
-      "num": 448,
-      "img": "https://example.com/pokemon448.png",
-      "name": "Lucario",
-      "type": ["Fighting", "Steel"],
-      "height": 1.2,
-      "weight": 54,
-      "description": "The evolved form of Riolu, a Fighting/Steel-type Pokémon with a strong sense of justice and aura powers."
-    },
-    {
-      "num": 449,
-      "img": "https://example.com/pokemon449.png",
-      "name": "Hippopotas",
-      "type": ["Ground"],
-      "height": 0.8,
-      "weight": 49.5,
-      "description": "A Ground-type Pokémon that often digs through sand and lives in arid regions."
-    },
-    {
-      "num": 450,
-      "img": "https://example.com/pokemon450.png",
-      "name": "Hippowdon",
-      "type": ["Ground"],
-      "height": 2,
-      "weight": 300,
-      "description": "The evolved form of Hippopotas, a large Ground-type Pokémon that creates sandstorms in the desert."
-    },
-    {
-      "num": 451,
-      "img": "https://example.com/pokemon451.png",
-      "name": "Skorupi",
-      "type": ["Poison", "Bug"],
-      "height": 0.8,
-      "weight": 12,
-      "description": "A Poison/Bug-type Pokémon that is known for its scorpion-like appearance."
-    },
-    {
-      "num": 452,
-      "img": "https://example.com/pokemon452.png",
-      "name": "Drapion",
-      "type": ["Poison", "Dark"],
-      "height": 1.3,
-      "weight": 61.5,
-      "description": "The evolved form of Skorupi, a Poison/Dark-type Pokémon with a powerful and toxic tail."
-    },
-    {
-      "num": 453,
-      "img": "https://example.com/pokemon453.png",
-      "name": "Croagunk",
-      "type": ["Poison", "Fighting"],
-      "height": 0.7,
-      "weight": 23,
-      "description": "A Poison/Fighting-type Pokémon that secretes a toxic fluid from its skin."
-    },
-    {
-      "num": 454,
-      "img": "https://example.com/pokemon454.png",
-      "name": "Toxicroak",
-      "type": ["Poison", "Fighting"],
-      "height": 1.3,
-      "weight": 44.4,
-      "description": "The evolved form of Croagunk, a Poison/Fighting-type Pokémon with powerful poison punches."
-    },
-    {
-      "num": 455,
-      "img": "https://example.com/pokemon455.png",
-      "name": "Carnivine",
-      "type": ["Grass"],
-      "height": 1.4,
-      "weight": 27,
-      "description": "A Grass-type Pokémon known for its large mouth and the ability to trap prey using vines."
-    },
-    {
-      "num": 456,
-      "img": "https://example.com/pokemon456.png",
-      "name": "Finneon",
-      "type": ["Water"],
-      "height": 0.4,
-      "weight": 7,
-      "description": "A Water-type Pokémon that is often found in large groups, swimming gracefully in the water."
-    },
-    {
-      "num": 457,
-      "img": "https://example.com/pokemon457.png",
-      "name": "Lumineon",
-      "type": ["Water"],
-      "height": 1.2,
-      "weight": 24,
-      "description": "The evolved form of Finneon, a Water-type Pokémon that uses the patterns on its fins to communicate."
-    },
-    {
-      "num": 458,
-      "img": "https://example.com/pokemon458.png",
-      "name": "Mantyke",
-      "type": ["Water", "Flying"],
-      "height": 1,
-      "weight": 65,
-      "description": "A Water/Flying-type Pokémon that is known for its friendly and gentle nature."
-    },
-    {
-      "num": 459,
-      "img": "https://example.com/pokemon459.png",
-      "name": "Snover",
-      "type": ["Grass", "Ice"],
-      "height": 1,
-      "weight": 50.5,
-      "description": "A Grass/Ice-type Pokémon that resembles a small tree covered in snow."
-    },
-    {
-      "num": 460,
-      "img": "https://example.com/pokemon460.png",
-      "name": "Abomasnow",
-      "type": ["Grass", "Ice"],
-      "height": 2.2,
-      "weight": 135.5,
-      "description": "The evolved form of Snover, a Grass/Ice-type Pokémon with a frosty and imposing appearance."
-    },
-    {
-      "num": 461,
-      "img": "https://example.com/pokemon461.png",
-      "name": "Weavile",
-      "type": ["Dark", "Ice"],
-      "height": 1.1,
-      "weight": 34,
-      "description": "The evolved form of Sneasel, a Dark/Ice-type Pokémon known for its speed and agility."
-    },
-    {
-      "num": 462,
-      "img": "https://example.com/pokemon462.png",
-      "name": "Magnezone",
-      "type": ["Electric", "Steel"],
-      "height": 1.2,
-      "weight": 180,
-      "description": "The evolved form of Magneton, an Electric/Steel-type Pokémon with powerful magnetic fields."
-    },
-    {
-      "num": 463,
-      "img": "https://example.com/pokemon463.png",
-      "name": "Lickilicky",
-      "type": ["Normal"],
-      "height": 1.7,
-      "weight": 140,
-      "description": "The evolved form of Lickitung, a Normal-type Pokémon with an extremely long tongue."
-    },
-    {
-      "num": 464,
-      "img": "https://example.com/pokemon464.png",
-      "name": "Rhyperior",
-      "type": ["Ground", "Rock"],
-      "height": 2.4,
-      "weight": 282.8,
-      "description": "The evolved form of Rhydon, a Ground/Rock-type Pokémon with a powerful drill horn."
-    },
-    {
-      "num": 465,
-      "img": "https://example.com/pokemon465.png",
-      "name": "Tangrowth",
-      "type": ["Grass"],
-      "height": 2,
-      "weight": 128.6,
-      "description": "The evolved form of Tangela, a Grass-type Pokémon with long, vine-like arms."
-    },
-    {
-      "num": 466,
-      "img": "https://example.com/pokemon466.png",
-      "name": "Electivire",
-      "type": ["Electric"],
-      "height": 1.8,
-      "weight": 138.6,
-      "description": "The evolved form of Electabuzz, an Electric-type Pokémon with powerful electrical punches."
-    },
-    {
-      "num": 467,
-      "img": "https://example.com/pokemon467.png",
-      "name": "Magmortar",
-      "type": ["Fire"],
-      "height": 1.6,
-      "weight": 68,
-      "description": "The evolved form of Magmar, a Fire-type Pokémon with powerful flames and cannons on its arms."
-    },
-    {
-      "num": 468,
-      "img": "https://example.com/pokemon468.png",
-      "name": "Togekiss",
-      "type": ["Fairy", "Flying"],
-      "height": 1.5,
-      "weight": 38,
-      "description": "The evolved form of Togetic, a Fairy/Flying-type Pokémon that spreads happiness and joy."
-    },
-    {
-      "num": 469,
-      "img": "https://example.com/pokemon469.png",
-      "name": "Yanmega",
-      "type": ["Bug", "Flying"],
-      "height": 1.9,
-      "weight": 51.5,
-      "description": "The evolved form of Yanma, a Bug/Flying-type Pokémon with powerful wings and speed."
-    },
-    {
-      "num": 470,
-      "img": "https://example.com/pokemon470.png",
-      "name": "Leafeon",
-      "type": ["Grass"],
-      "height": 1,
-      "weight": 25.5,
-      "description": "One of the evolved forms of Eevee, a Grass-type Pokémon that evolves through exposure to a Leaf Stone."
-    },
-    {
-      "num": 471,
-      "img": "https://example.com/pokemon471.png",
-      "name": "Glaceon",
-      "type": ["Ice"],
-      "height": 0.8,
-      "weight": 25.9,
-      "description": "One of the evolved forms of Eevee, an Ice-type Pokémon that evolves through exposure to an Ice Stone."
-    },
-    {
-      "num": 472,
-      "img": "https://example.com/pokemon472.png",
-      "name": "Gliscor",
-      "type": ["Ground", "Flying"],
-      "height": 2,
-      "weight": 42.5,
-      "description": "The evolved form of Gligar, a Ground/Flying-type Pokémon known for its acrobatic flying skills."
-    },
-    {
-      "num": 473,
-      "img": "https://example.com/pokemon473.png",
-      "name": "Mamoswine",
-      "type": ["Ice", "Ground"],
-      "height": 2.5,
-      "weight": 291,
-      "description": "The evolved form of Piloswine, an Ice/Ground-type Pokémon with powerful tusks and a thick coat of fur."
-    },
-    {
-      "num": 474,
-      "img": "https://example.com/pokemon474.png",
-      "name": "Porygon-Z",
-      "type": ["Normal"],
-      "height": 0.9,
-      "weight": 34,
-      "description": "The evolved form of Porygon2, a Normal-type Pokémon that has been upgraded with additional software."
-    },
-    {
-      "num": 475,
-      "img": "https://example.com/pokemon475.png",
-      "name": "Gallade",
-      "type": ["Psychic", "Fighting"],
-      "height": 1.6,
-      "weight": 52,
-      "description": "The evolved form of Kirlia, a Psychic/Fighting-type Pokémon that wields a blade-like arm."
-    },
-    {
-      "num": 476,
-      "img": "https://example.com/pokemon476.png",
-      "name": "Probopass",
-      "type": ["Rock", "Steel"],
-      "height": 1.4,
-      "weight": 340,
-      "description": "The evolved form of Nosepass, a Rock/Steel-type Pokémon with a magnetic nose that always points north."
-    },
-    {
-      "num": 477,
-      "img": "https://example.com/pokemon477.png",
-      "name": "Dusknoir",
-      "type": ["Ghost"],
-      "height": 2.2,
-      "weight": 106.6,
-      "description": "The evolved form of Dusclops, a Ghost-type Pokémon that guides spirits to the afterlife."
-    },
-    {
-      "num": 478,
-      "img": "https://example.com/pokemon478.png",
-      "name": "Froslass",
-      "type": ["Ice", "Ghost"],
-      "height": 1.3,
-      "weight": 26.6,
-      "description": "An Ice/Ghost-type Pokémon that freezes its prey and then takes it to its lair."
-    },
-    {
-      "num": 479,
-      "img": "https://example.com/pokemon479.png",
-      "name": "Rotom",
-      "type": ["Electric", "Ghost"],
-      "height": 0.3,
-      "weight": 0.3,
-      "description": "An Electric/Ghost-type Pokémon that can possess various appliances and change its form."
-    },
-    {
-      "num": 480,
-      "img": "https://example.com/pokemon480.png",
-      "name": "Uxie",
-      "type": ["Psychic"],
-      "height": 0.3,
-      "weight": 0.3,
-      "description": "A Psychic-type Pokémon that is said to have the ability to erase memories."
-    },
-    {
-      "num": 481,
-      "img": "https://example.com/pokemon481.png",
-      "name": "Mesprit",
-      "type": ["Psychic"],
-      "height": 0.3,
-      "weight": 0.3,
-      "description": "A Psychic-type Pokémon that is said to have the ability to control emotions."
-    },
-    {
-      "num": 482,
-      "img": "https://example.com/pokemon482.png",
-      "name": "Azelf",
-      "type": ["Psychic"],
-      "height": 0.3,
-      "weight": 0.3,
-      "description": "A Psychic-type Pokémon that is said to have the ability to bring about willpower."
-    },
-    {
-      "num": 483,
-      "img": "https://example.com/pokemon483.png",
-      "name": "Dialga",
-      "type": ["Steel", "Dragon"],
-      "height": 5.4,
-      "weight": 683,
-      "description": "A Steel/Dragon-type Pokémon that is said to control time and govern the flow of time in the Pokémon world."
-    },
-    {
-      "num": 484,
-      "img": "https://example.com/pokemon484.png",
-      "name": "Palkia",
-      "type": ["Water", "Dragon"],
-      "height": 4.2,
-      "weight": 336,
-      "description": "A Water/Dragon-type Pokémon that is said to control space and govern the spatial dimensions in the Pokémon world."
-    },
-    {
-      "num": 485,
-      "img": "https://example.com/pokemon485.png",
-      "name": "Heatran",
-      "type": ["Fire", "Steel"],
-      "height": 1.7,
-      "weight": 430,
-      "description": "A Fire/Steel-type Pokémon that resides in volcanic caves and has a body made of molten lava."
-    },
-    {
-      "num": 486,
-      "img": "https://example.com/pokemon486.png",
-      "name": "Regigigas",
-      "type": ["Normal"],
-      "height": 3.7,
-      "weight": 420,
-      "description": "A Legendary Pokémon that is said to have towed continents with ropes."
-    },
-    {
-      "num": 487,
-      "img": "https://example.com/pokemon487.png",
-      "name": "Giratina",
-      "type": ["Ghost", "Dragon"],
-      "height": 4.5,
-      "weight": 750,
-      "description": "A Ghost/Dragon-type Pokémon that is said to reside in a dimension known as the Distortion World."
-    },
-    {
-      "num": 488,
-      "img": "https://example.com/pokemon488.png",
-      "name": "Cresselia",
-      "type": ["Psychic"],
-      "height": 1.5,
-      "weight": 85.6,
-      "description": "A Psychic-type Pokémon that is said to represent the crescent moon."
-    },
-    {
-      "num": 489,
-      "img": "https://example.com/pokemon489.png",
-      "name": "Phione",
-      "type": ["Water"],
-      "height": 0.4,
-      "weight": 3.1,
-      "description": "A Water-type Pokémon that is said to be born in the warm seas of the Southern regions."
-    },
-    {
-      "num": 490,
-      "img": "https://example.com/pokemon490.png",
-      "name": "Manaphy",
-      "type": ["Water"],
-      "height": 0.3,
-      "weight": 1.4,
-      "description": "A Water-type Pokémon that is said to be born in the cold sea of the Northern regions."
-    },
-    {
-      "num": 491,
-      "img": "https://example.com/pokemon491.png",
-      "name": "Darkrai",
-      "type": ["Dark"],
-      "height": 1.5,
-      "weight": 50.5,
-      "description": "A Dark-type Pokémon that is said to have the ability to give nightmares."
-    },
-    {
-      "num": 492,
-      "img": "https://example.com/pokemon492.png",
-      "name": "Shaymin",
-      "type": ["Grass"],
-      "height": 0.2,
-      "weight": 2.1,
-      "description": "A Mythical Pokémon that can transform into its Sky Forme."
-    },
-    {
-      "num": 493,
-      "img": "https://example.com/pokemon493.png",
-      "name": "Arceus",
-      "type": ["Normal"],
-      "height": 3.2,
-      "weight": 320,
-      "description": "The Alpha Pokémon that is said to have shaped the universe with its 1,000 arms."
+{ "pokemons" : [
+    {
+        "num": 387,
+        "img": "https://serebii.net/pokemon/art/387.png",
+        "name": "Turtwig",
+        "type": [
+            "Grass"
+        ],
+        "height": 0.4,
+        "weight": 10.2,
+        "description": "A Grass-type Pokémon that resembles a small turtle."
+    },
+    {
+        "num": 388,
+        "img": "https://serebii.net/pokemon/art/388.png",
+        "name": "Grotle",
+        "type": [
+            "Grass"
+        ],
+        "height": 1.1,
+        "weight": 97,
+        "description": "The evolved form of Turtwig, a Grass-type Pokémon with a tree on its back."
+    },
+    {
+        "num": 389,
+        "img": "https://serebii.net/pokemon/art/389.png",
+        "name": "Torterra",
+        "type": [
+            "Grass",
+            "Ground"
+        ],
+        "height": 2.2,
+        "weight": 310,
+        "description": "The final evolution of Turtwig, a Grass/Ground-type Pokémon with a vast landscape on its back."
+    },
+    {
+        "num": 390,
+        "img": "https://serebii.net/pokemon/art/390.png",
+        "name": "Chimchar",
+        "type": [
+            "Fire"
+        ],
+        "height": 0.5,
+        "weight": 6.2,
+        "description": "A Fire-type Pokémon known for the flame on its tail."
+    },
+    {
+        "num": 391,
+        "img": "https://serebii.net/pokemon/art/391.png",
+        "name": "Monferno",
+        "type": [
+            "Fire",
+            "Fighting"
+        ],
+        "height": 0.9,
+        "weight": 22,
+        "description": "The evolved form of Chimchar, a Fire/Fighting-type Pokémon with fiery punches."
+    },
+    {
+        "num": 392,
+        "img": "https://serebii.net/pokemon/art/392.png",
+        "name": "Infernape",
+        "type": [
+            "Fire",
+            "Fighting"
+        ],
+        "height": 1.2,
+        "weight": 55,
+        "description": "The final evolution of Chimchar, a Fire/Fighting-type Pokémon skilled in martial arts."
+    },
+    {
+        "num": 393,
+        "img": "https://serebii.net/pokemon/art/393.png",
+        "name": "Piplup",
+        "type": [
+            "Water"
+        ],
+        "height": 0.4,
+        "weight": 5.2,
+        "description": "A Water-type Pokémon that resembles a penguin with a blue crown."
+    },
+    {
+        "num": 394,
+        "img": "https://serebii.net/pokemon/art/394.png",
+        "name": "Prinplup",
+        "type": [
+            "Water"
+        ],
+        "height": 0.8,
+        "weight": 23,
+        "description": "The evolved form of Piplup, a Water-type Pokémon with a more regal appearance."
+    },
+    {
+        "num": 395,
+        "img": "https://serebii.net/pokemon/art/395.png",
+        "name": "Empoleon",
+        "type": [
+            "Water",
+            "Steel"
+        ],
+        "height": 1.7,
+        "weight": 84.5,
+        "description": "The final evolution of Piplup, a Water/Steel-type Pokémon with a trident-like beak."
+    },
+    {
+        "num": 396,
+        "img": "https://serebii.net/pokemon/art/396.png",
+        "name": "Starly",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "height": 0.3,
+        "weight": 2,
+        "description": "A Normal/Flying-type Pokémon known for its sharp beak and keen eyesight."
+    },
+    {
+        "num": 397,
+        "img": "https://serebii.net/pokemon/art/397.png",
+        "name": "Staravia",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "height": 0.6,
+        "weight": 15.5,
+        "description": "The evolved form of Starly, a Normal/Flying-type Pokémon with a more impressive wingspan."
+    },
+    {
+        "num": 398,
+        "img": "https://serebii.net/pokemon/art/398.png",
+        "name": "Staraptor",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "height": 1.2,
+        "weight": 24.9,
+        "description": "The final evolution of Starly, a powerful Normal/Flying-type Pokémon with a fierce appearance."
+    },
+    {
+        "num": 399,
+        "img": "https://serebii.net/pokemon/art/399.png",
+        "name": "Bidoof",
+        "type": [
+            "Normal"
+        ],
+        "height": 0.5,
+        "weight": 20,
+        "description": "A simple Normal-type Pokémon known for its large front teeth."
+    },
+    {
+        "num": 400,
+        "img": "https://serebii.net/pokemon/art/400.png",
+        "name": "Bibarel",
+        "type": [
+            "Normal",
+            "Water"
+        ],
+        "height": 1,
+        "weight": 31.5,
+        "description": "The evolved form of Bidoof, a Normal/Water-type Pokémon with strong gnawing abilities."
+    },
+    {
+        "num": 401,
+        "img": "https://serebii.net/pokemon/art/401.png",
+        "name": "Kricketot",
+        "type": [
+            "Bug"
+        ],
+        "height": 0.3,
+        "weight": 2.2,
+        "description": "A Bug-type Pokémon known for its chirping sound that changes in pitch."
+    },
+    {
+        "num": 402,
+        "img": "https://serebii.net/pokemon/art/402.png",
+        "name": "Kricketune",
+        "type": [
+            "Bug"
+        ],
+        "height": 1,
+        "weight": 25.5,
+        "description": "The evolved form of Kricketot, a Bug-type Pokémon that creates melodies with its long antennae."
+    },
+    {
+        "num": 403,
+        "img": "https://serebii.net/pokemon/art/403.png",
+        "name": "Shinx",
+        "type": [
+            "Electric"
+        ],
+        "height": 0.5,
+        "weight": 9.5,
+        "description": "An Electric-type Pokémon with a keen sense of hearing and a powerful roar."
+    },
+    {
+        "num": 404,
+        "img": "https://serebii.net/pokemon/art/404.png",
+        "name": "Luxio",
+        "type": [
+            "Electric"
+        ],
+        "height": 0.9,
+        "weight": 30.5,
+        "description": "The evolved form of Shinx, an Electric-type Pokémon with increased electrical power."
+    },
+    {
+        "num": 405,
+        "img": "https://serebii.net/pokemon/art/405.png",
+        "name": "Luxray",
+        "type": [
+            "Electric"
+        ],
+        "height": 1.4,
+        "weight": 42,
+        "description": "The final evolution of Shinx, a powerful Electric-type Pokémon with a majestic appearance."
+    },
+    {
+        "num": 406,
+        "img": "https://serebii.net/pokemon/art/406.png",
+        "name": "Budew",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "height": 0.2,
+        "weight": 1.2,
+        "description": "A Grass/Poison-type Pokémon that blooms into a beautiful flower when it evolves."
+    },
+    {
+        "num": 407,
+        "img": "https://serebii.net/pokemon/art/407.png",
+        "name": "Roserade",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "height": 0.9,
+        "weight": 14.5,
+        "description": "The evolved form of Budew, a Grass/Poison-type Pokémon that releases a pleasant fragrance."
+    },
+    {
+        "num": 408,
+        "img": "https://serebii.net/pokemon/art/408.png",
+        "name": "Cranidos",
+        "type": [
+            "Rock"
+        ],
+        "height": 0.9,
+        "weight": 31.5,
+        "description": "A Rock-type Pokémon with a hard skull, known for its powerful headbutts."
+    },
+    {
+        "num": 409,
+        "img": "https://serebii.net/pokemon/art/409.png",
+        "name": "Rampardos",
+        "type": [
+            "Rock"
+        ],
+        "height": 1.6,
+        "weight": 102.5,
+        "description": "The evolved form of Cranidos, a Rock-type Pokémon with an even harder skull."
+    },
+    {
+        "num": 410,
+        "img": "https://serebii.net/pokemon/art/410.png",
+        "name": "Shieldon",
+        "type": [
+            "Rock",
+            "Steel"
+        ],
+        "height": 0.5,
+        "weight": 57,
+        "description": "A Rock/Steel-type Pokémon with a protective face, often found in ancient fossils."
+    },
+    {
+        "num": 411,
+        "img": "https://serebii.net/pokemon/art/411.png",
+        "name": "Bastiodon",
+        "type": [
+            "Rock",
+            "Steel"
+        ],
+        "height": 1.3,
+        "weight": 149.5,
+        "description": "The evolved form of Shieldon, a Rock/Steel-type Pokémon with a sturdy shield-like face."
+    },
+    {
+        "num": 412,
+        "img": "https://serebii.net/pokemon/art/412.png",
+        "name": "Burmy",
+        "type": [
+            "Bug"
+        ],
+        "height": 0.2,
+        "weight": 3.4,
+        "description": "A Bug-type Pokémon that takes on different appearances based on its surroundings."
+    },
+    {
+        "num": 413,
+        "img": "https://serebii.net/pokemon/art/413.png",
+        "name": "Wormadam",
+        "type": [
+            "Bug",
+            "Grass"
+        ],
+        "height": 0.5,
+        "weight": 6.5,
+        "description": "The evolved form of Burmy, a Bug/Grass-type Pokémon with a cloak made of leaves."
+    },
+    {
+        "num": 414,
+        "img": "https://serebii.net/pokemon/art/414.png",
+        "name": "Mothim",
+        "type": [
+            "Bug",
+            "Flying"
+        ],
+        "height": 0.9,
+        "weight": 23.3,
+        "description": "The evolved form of Burmy, a Bug/Flying-type Pokémon that is attracted to light."
+    },
+    {
+        "num": 415,
+        "img": "https://serebii.net/pokemon/art/415.png",
+        "name": "Combee",
+        "type": [
+            "Bug",
+            "Flying"
+        ],
+        "height": 0.3,
+        "weight": 5.5,
+        "description": "A Bug/Flying-type Pokémon that forms colonies with a single female as the leader."
+    },
+    {
+        "num": 416,
+        "img": "https://serebii.net/pokemon/art/416.png",
+        "name": "Vespiquen",
+        "type": [
+            "Bug",
+            "Flying"
+        ],
+        "height": 1.2,
+        "weight": 38.5,
+        "description": "The evolved form of Combee, a Bug/Flying-type Pokémon known for its protective nature."
+    },
+    {
+        "num": 417,
+        "img": "https://serebii.net/pokemon/art/417.png",
+        "name": "Pachirisu",
+        "type": [
+            "Electric"
+        ],
+        "height": 0.4,
+        "weight": 3.9,
+        "description": "An Electric-type Pokémon with a fluffy tail that generates electrical energy."
+    },
+    {
+        "num": 418,
+        "img": "https://serebii.net/pokemon/art/418.png",
+        "name": "Buizel",
+        "type": [
+            "Water"
+        ],
+        "height": 0.7,
+        "weight": 29.5,
+        "description": "A Water-type Pokémon that is known for its swift swimming and flotation sacs."
+    },
+    {
+        "num": 419,
+        "img": "https://serebii.net/pokemon/art/419.png",
+        "name": "Floatzel",
+        "type": [
+            "Water"
+        ],
+        "height": 1.1,
+        "weight": 33.5,
+        "description": "The evolved form of Buizel, a Water-type Pokémon that moves gracefully in the water."
+    },
+    {
+        "num": 420,
+        "img": "https://serebii.net/pokemon/art/420.png",
+        "name": "Cherubi",
+        "type": [
+            "Grass"
+        ],
+        "height": 0.4,
+        "weight": 3.3,
+        "description": "A Grass-type Pokémon with a small cherry on its head, which grows into a larger cherry."
+    },
+    {
+        "num": 421,
+        "img": "https://serebii.net/pokemon/art/421.png",
+        "name": "Cherrim",
+        "type": [
+            "Grass"
+        ],
+        "height": 0.5,
+        "weight": 9.3,
+        "description": "The evolved form of Cherubi, a Grass-type Pokémon that changes appearance based on sunlight."
+    },
+    {
+        "num": 422,
+        "img": "https://serebii.net/pokemon/art/422.png",
+        "name": "Shellos",
+        "type": [
+            "Water"
+        ],
+        "height": 0.3,
+        "weight": 6.3,
+        "description": "A Water-type Pokémon that has different forms based on its habitat."
+    },
+    {
+        "num": 423,
+        "img": "https://serebii.net/pokemon/art/423.png",
+        "name": "Gastrodon",
+        "type": [
+            "Water",
+            "Ground"
+        ],
+        "height": 0.9,
+        "weight": 29.9,
+        "description": "The evolved form of Shellos, a Water/Ground-type Pokémon with a unique sea slug appearance."
+    },
+    {
+        "num": 424,
+        "img": "https://serebii.net/pokemon/art/424.png",
+        "name": "Ambipom",
+        "type": [
+            "Normal"
+        ],
+        "height": 1.2,
+        "weight": 20.3,
+        "description": "The evolved form of Aipom, a Normal-type Pokémon with two tails and hand-like extensions."
+    },
+    {
+        "num": 425,
+        "img": "https://serebii.net/pokemon/art/425.png",
+        "name": "Drifloon",
+        "type": [
+            "Ghost",
+            "Flying"
+        ],
+        "height": 0.4,
+        "weight": 1.2,
+        "description": "A Ghost/Flying-type Pokémon that appears to be a drifting balloon with a string."
+    },
+    {
+        "num": 426,
+        "img": "https://serebii.net/pokemon/art/426.png",
+        "name": "Drifblim",
+        "type": [
+            "Ghost",
+            "Flying"
+        ],
+        "height": 1.2,
+        "weight": 15,
+        "description": "The evolved form of Drifloon, a Ghost/Flying-type Pokémon with a larger balloon body."
+    },
+    {
+        "num": 427,
+        "img": "https://serebii.net/pokemon/art/427.png",
+        "name": "Buneary",
+        "type": [
+            "Normal"
+        ],
+        "height": 0.4,
+        "weight": 5.5,
+        "description": "A Normal-type Pokémon known for its long ears and cute appearance."
+    },
+    {
+        "num": 428,
+        "img": "https://serebii.net/pokemon/art/428.png",
+        "name": "Lopunny",
+        "type": [
+            "Normal"
+        ],
+        "height": 1.2,
+        "weight": 33.3,
+        "description": "The evolved form of Buneary, a Normal-type Pokémon with increased speed and elegance."
+    },
+    {
+        "num": 429,
+        "img": "https://serebii.net/pokemon/art/429.png",
+        "name": "Mismagius",
+        "type": [
+            "Ghost"
+        ],
+        "height": 0.9,
+        "weight": 4.4,
+        "description": "The evolved form of Misdreavous, a Ghost-type Pokémon known for its magical abilities."
+    },
+    {
+        "num": 430,
+        "img": "https://serebii.net/pokemon/art/430.png",
+        "name": "Honchkrow",
+        "type": [
+            "Dark",
+            "Flying"
+        ],
+        "height": 0.9,
+        "weight": 27.3,
+        "description": "The evolved form of Murkrow, a Dark/Flying-type Pokémon with a sinister appearance."
+    },
+    {
+        "num": 431,
+        "img": "https://serebii.net/pokemon/art/431.png",
+        "name": "Glameow",
+        "type": [
+            "Normal"
+        ],
+        "height": 0.5,
+        "weight": 3.9,
+        "description": "A Normal-type Pokémon with a sleek and feline appearance."
+    },
+    {
+        "num": 432,
+        "img": "https://serebii.net/pokemon/art/432.png",
+        "name": "Purugly",
+        "type": [
+            "Normal"
+        ],
+        "height": 1,
+        "weight": 43.8,
+        "description": "The evolved form of Glameow, a Normal-type Pokémon with a more robust and fierce demeanor."
+    },
+    {
+        "num": 433,
+        "img": "https://serebii.net/pokemon/art/433.png",
+        "name": "Chingling",
+        "type": [
+            "Psychic"
+        ],
+        "height": 0.2,
+        "weight": 0.6,
+        "description": "A Psychic-type Pokémon that is known for its gentle and soothing chime."
+    },
+    {
+        "num": 434,
+        "img": "https://serebii.net/pokemon/art/434.png",
+        "name": "Stunky",
+        "type": [
+            "Poison",
+            "Dark"
+        ],
+        "height": 0.4,
+        "weight": 19.2,
+        "description": "A Poison/Dark-type Pokémon with a foul odor that acts as a defense mechanism."
+    },
+    {
+        "num": 435,
+        "img": "https://serebii.net/pokemon/art/435.png",
+        "name": "Skuntank",
+        "type": [
+            "Poison",
+            "Dark"
+        ],
+        "height": 1,
+        "weight": 38,
+        "description": "The evolved form of Stunky, a Poison/Dark-type Pokémon that sprays a noxious fluid as a defensive move."
+    },
+    {
+        "num": 436,
+        "img": "https://serebii.net/pokemon/art/436.png",
+        "name": "Bronzor",
+        "type": [
+            "Steel",
+            "Psychic"
+        ],
+        "height": 0.5,
+        "weight": 60.5,
+        "description": "A Steel/Psychic-type Pokémon with a metallic body that reflects psychic waves."
+    },
+    {
+        "num": 437,
+        "img": "https://serebii.net/pokemon/art/437.png",
+        "name": "Bronzong",
+        "type": [
+            "Steel",
+            "Psychic"
+        ],
+        "height": 1.3,
+        "weight": 187,
+        "description": "The evolved form of Bronzor, a Steel/Psychic-type Pokémon that controls bells with its psychic powers."
+    },
+    {
+        "num": 438,
+        "img": "https://serebii.net/pokemon/art/438.png",
+        "name": "Bonsly",
+        "type": [
+            "Rock"
+        ],
+        "height": 0.5,
+        "weight": 15,
+        "description": "A Rock-type Pokémon that resembles a small bonsai tree."
+    },
+    {
+        "num": 439,
+        "img": "https://serebii.net/pokemon/art/439.png",
+        "name": "Mime Jr.",
+        "type": [
+            "Psychic",
+            "Fairy"
+        ],
+        "height": 0.6,
+        "weight": 13,
+        "description": "A Psychic/Fairy-type Pokémon that mimics the movements of others to learn its own pantomime."
+    },
+    {
+        "num": 440,
+        "img": "https://serebii.net/pokemon/art/440.png",
+        "name": "Happiny",
+        "type": [
+            "Normal"
+        ],
+        "height": 0.6,
+        "weight": 24.4,
+        "description": "A Normal-type Pokémon that is often seen carrying an egg to bring happiness to others."
+    },
+    {
+        "num": 441,
+        "img": "https://serebii.net/pokemon/art/441.png",
+        "name": "Chatot",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "height": 0.5,
+        "weight": 1.9,
+        "description": "A Normal/Flying-type Pokémon that mimics human speech and sound patterns."
+    },
+    {
+        "num": 442,
+        "img": "https://serebii.net/pokemon/art/442.png",
+        "name": "Spiritomb",
+        "type": [
+            "Ghost",
+            "Dark"
+        ],
+        "height": 1,
+        "weight": 108,
+        "description": "A Ghost/Dark-type Pokémon that is formed by 108 spirits trapped in an Odd Keystone."
+    },
+    {
+        "num": 443,
+        "img": "https://serebii.net/pokemon/art/443.png",
+        "name": "Gible",
+        "type": [
+            "Dragon",
+            "Ground"
+        ],
+        "height": 0.7,
+        "weight": 20.5,
+        "description": "A Dragon/Ground-type Pokémon that loves to bite and dig."
+    },
+    {
+        "num": 444,
+        "img": "https://serebii.net/pokemon/art/444.png",
+        "name": "Gabite",
+        "type": [
+            "Dragon",
+            "Ground"
+        ],
+        "height": 1.4,
+        "weight": 56,
+        "description": "The evolved form of Gible, a Dragon/Ground-type Pokémon with strong jaws and a love for digging."
+    },
+    {
+        "num": 445,
+        "img": "https://serebii.net/pokemon/art/445.png",
+        "name": "Garchomp",
+        "type": [
+            "Dragon",
+            "Ground"
+        ],
+        "height": 1.9,
+        "weight": 95,
+        "description": "The final evolution of Gible, a Dragon/Ground-type Pokémon with powerful jaws and wings for flight."
+    },
+    {
+        "num": 446,
+        "img": "https://serebii.net/pokemon/art/446.png",
+        "name": "Munchlax",
+        "type": [
+            "Normal"
+        ],
+        "height": 0.6,
+        "weight": 105,
+        "description": "A Normal-type Pokémon that is the pre-evolution of Snorlax, known for its insatiable appetite."
+    },
+    {
+        "num": 447,
+        "img": "https://serebii.net/pokemon/art/447.png",
+        "name": "Riolu",
+        "type": [
+            "Fighting"
+        ],
+        "height": 0.7,
+        "weight": 20.2,
+        "description": "A Fighting-type Pokémon that is the pre-evolution of Lucario, known for its strong sense of justice."
+    },
+    {
+        "num": 448,
+        "img": "https://serebii.net/pokemon/art/448.png",
+        "name": "Lucario",
+        "type": [
+            "Fighting",
+            "Steel"
+        ],
+        "height": 1.2,
+        "weight": 54,
+        "description": "The evolved form of Riolu, a Fighting/Steel-type Pokémon with a strong sense of justice and aura powers."
+    },
+    {
+        "num": 449,
+        "img": "https://serebii.net/pokemon/art/449.png",
+        "name": "Hippopotas",
+        "type": [
+            "Ground"
+        ],
+        "height": 0.8,
+        "weight": 49.5,
+        "description": "A Ground-type Pokémon that often digs through sand and lives in arid regions."
+    },
+    {
+        "num": 450,
+        "img": "https://serebii.net/pokemon/art/450.png",
+        "name": "Hippowdon",
+        "type": [
+            "Ground"
+        ],
+        "height": 2,
+        "weight": 300,
+        "description": "The evolved form of Hippopotas, a large Ground-type Pokémon that creates sandstorms in the desert."
+    },
+    {
+        "num": 451,
+        "img": "https://serebii.net/pokemon/art/451.png",
+        "name": "Skorupi",
+        "type": [
+            "Poison",
+            "Bug"
+        ],
+        "height": 0.8,
+        "weight": 12,
+        "description": "A Poison/Bug-type Pokémon that is known for its scorpion-like appearance."
+    },
+    {
+        "num": 452,
+        "img": "https://serebii.net/pokemon/art/452.png",
+        "name": "Drapion",
+        "type": [
+            "Poison",
+            "Dark"
+        ],
+        "height": 1.3,
+        "weight": 61.5,
+        "description": "The evolved form of Skorupi, a Poison/Dark-type Pokémon with a powerful and toxic tail."
+    },
+    {
+        "num": 453,
+        "img": "https://serebii.net/pokemon/art/453.png",
+        "name": "Croagunk",
+        "type": [
+            "Poison",
+            "Fighting"
+        ],
+        "height": 0.7,
+        "weight": 23,
+        "description": "A Poison/Fighting-type Pokémon that secretes a toxic fluid from its skin."
+    },
+    {
+        "num": 454,
+        "img": "https://serebii.net/pokemon/art/454.png",
+        "name": "Toxicroak",
+        "type": [
+            "Poison",
+            "Fighting"
+        ],
+        "height": 1.3,
+        "weight": 44.4,
+        "description": "The evolved form of Croagunk, a Poison/Fighting-type Pokémon with powerful poison punches."
+    },
+    {
+        "num": 455,
+        "img": "https://serebii.net/pokemon/art/455.png",
+        "name": "Carnivine",
+        "type": [
+            "Grass"
+        ],
+        "height": 1.4,
+        "weight": 27,
+        "description": "A Grass-type Pokémon known for its large mouth and the ability to trap prey using vines."
+    },
+    {
+        "num": 456,
+        "img": "https://serebii.net/pokemon/art/456.png",
+        "name": "Finneon",
+        "type": [
+            "Water"
+        ],
+        "height": 0.4,
+        "weight": 7,
+        "description": "A Water-type Pokémon that is often found in large groups, swimming gracefully in the water."
+    },
+    {
+        "num": 457,
+        "img": "https://serebii.net/pokemon/art/457.png",
+        "name": "Lumineon",
+        "type": [
+            "Water"
+        ],
+        "height": 1.2,
+        "weight": 24,
+        "description": "The evolved form of Finneon, a Water-type Pokémon that uses the patterns on its fins to communicate."
+    },
+    {
+        "num": 458,
+        "img": "https://serebii.net/pokemon/art/458.png",
+        "name": "Mantyke",
+        "type": [
+            "Water",
+            "Flying"
+        ],
+        "height": 1,
+        "weight": 65,
+        "description": "A Water/Flying-type Pokémon that is known for its friendly and gentle nature."
+    },
+    {
+        "num": 459,
+        "img": "https://serebii.net/pokemon/art/459.png",
+        "name": "Snover",
+        "type": [
+            "Grass",
+            "Ice"
+        ],
+        "height": 1,
+        "weight": 50.5,
+        "description": "A Grass/Ice-type Pokémon that resembles a small tree covered in snow."
+    },
+    {
+        "num": 460,
+        "img": "https://serebii.net/pokemon/art/460.png",
+        "name": "Abomasnow",
+        "type": [
+            "Grass",
+            "Ice"
+        ],
+        "height": 2.2,
+        "weight": 135.5,
+        "description": "The evolved form of Snover, a Grass/Ice-type Pokémon with a frosty and imposing appearance."
+    },
+    {
+        "num": 461,
+        "img": "https://serebii.net/pokemon/art/461.png",
+        "name": "Weavile",
+        "type": [
+            "Dark",
+            "Ice"
+        ],
+        "height": 1.1,
+        "weight": 34,
+        "description": "The evolved form of Sneasel, a Dark/Ice-type Pokémon known for its speed and agility."
+    },
+    {
+        "num": 462,
+        "img": "https://serebii.net/pokemon/art/462.png",
+        "name": "Magnezone",
+        "type": [
+            "Electric",
+            "Steel"
+        ],
+        "height": 1.2,
+        "weight": 180,
+        "description": "The evolved form of Magneton, an Electric/Steel-type Pokémon with powerful magnetic fields."
+    },
+    {
+        "num": 463,
+        "img": "https://serebii.net/pokemon/art/463.png",
+        "name": "Lickilicky",
+        "type": [
+            "Normal"
+        ],
+        "height": 1.7,
+        "weight": 140,
+        "description": "The evolved form of Lickitung, a Normal-type Pokémon with an extremely long tongue."
+    },
+    {
+        "num": 464,
+        "img": "https://serebii.net/pokemon/art/464.png",
+        "name": "Rhyperior",
+        "type": [
+            "Ground",
+            "Rock"
+        ],
+        "height": 2.4,
+        "weight": 282.8,
+        "description": "The evolved form of Rhydon, a Ground/Rock-type Pokémon with a powerful drill horn."
+    },
+    {
+        "num": 465,
+        "img": "https://serebii.net/pokemon/art/465.png",
+        "name": "Tangrowth",
+        "type": [
+            "Grass"
+        ],
+        "height": 2,
+        "weight": 128.6,
+        "description": "The evolved form of Tangela, a Grass-type Pokémon with long, vine-like arms."
+    },
+    {
+        "num": 466,
+        "img": "https://serebii.net/pokemon/art/466.png",
+        "name": "Electivire",
+        "type": [
+            "Electric"
+        ],
+        "height": 1.8,
+        "weight": 138.6,
+        "description": "The evolved form of Electabuzz, an Electric-type Pokémon with powerful electrical punches."
+    },
+    {
+        "num": 467,
+        "img": "https://serebii.net/pokemon/art/467.png",
+        "name": "Magmortar",
+        "type": [
+            "Fire"
+        ],
+        "height": 1.6,
+        "weight": 68,
+        "description": "The evolved form of Magmar, a Fire-type Pokémon with powerful flames and cannons on its arms."
+    },
+    {
+        "num": 468,
+        "img": "https://serebii.net/pokemon/art/468.png",
+        "name": "Togekiss",
+        "type": [
+            "Fairy",
+            "Flying"
+        ],
+        "height": 1.5,
+        "weight": 38,
+        "description": "The evolved form of Togetic, a Fairy/Flying-type Pokémon that spreads happiness and joy."
+    },
+    {
+        "num": 469,
+        "img": "https://serebii.net/pokemon/art/469.png",
+        "name": "Yanmega",
+        "type": [
+            "Bug",
+            "Flying"
+        ],
+        "height": 1.9,
+        "weight": 51.5,
+        "description": "The evolved form of Yanma, a Bug/Flying-type Pokémon with powerful wings and speed."
+    },
+    {
+        "num": 470,
+        "img": "https://serebii.net/pokemon/art/470.png",
+        "name": "Leafeon",
+        "type": [
+            "Grass"
+        ],
+        "height": 1,
+        "weight": 25.5,
+        "description": "One of the evolved forms of Eevee, a Grass-type Pokémon that evolves through exposure to a Leaf Stone."
+    },
+    {
+        "num": 471,
+        "img": "https://serebii.net/pokemon/art/471.png",
+        "name": "Glaceon",
+        "type": [
+            "Ice"
+        ],
+        "height": 0.8,
+        "weight": 25.9,
+        "description": "One of the evolved forms of Eevee, an Ice-type Pokémon that evolves through exposure to an Ice Stone."
+    },
+    {
+        "num": 472,
+        "img": "https://serebii.net/pokemon/art/472.png",
+        "name": "Gliscor",
+        "type": [
+            "Ground",
+            "Flying"
+        ],
+        "height": 2,
+        "weight": 42.5,
+        "description": "The evolved form of Gligar, a Ground/Flying-type Pokémon known for its acrobatic flying skills."
+    },
+    {
+        "num": 473,
+        "img": "https://serebii.net/pokemon/art/473.png",
+        "name": "Mamoswine",
+        "type": [
+            "Ice",
+            "Ground"
+        ],
+        "height": 2.5,
+        "weight": 291,
+        "description": "The evolved form of Piloswine, an Ice/Ground-type Pokémon with powerful tusks and a thick coat of fur."
+    },
+    {
+        "num": 474,
+        "img": "https://serebii.net/pokemon/art/474.png",
+        "name": "Porygon-Z",
+        "type": [
+            "Normal"
+        ],
+        "height": 0.9,
+        "weight": 34,
+        "description": "The evolved form of Porygon2, a Normal-type Pokémon that has been upgraded with additional software."
+    },
+    {
+        "num": 475,
+        "img": "https://serebii.net/pokemon/art/475.png",
+        "name": "Gallade",
+        "type": [
+            "Psychic",
+            "Fighting"
+        ],
+        "height": 1.6,
+        "weight": 52,
+        "description": "The evolved form of Kirlia, a Psychic/Fighting-type Pokémon that wields a blade-like arm."
+    },
+    {
+        "num": 476,
+        "img": "https://serebii.net/pokemon/art/476.png",
+        "name": "Probopass",
+        "type": [
+            "Rock",
+            "Steel"
+        ],
+        "height": 1.4,
+        "weight": 340,
+        "description": "The evolved form of Nosepass, a Rock/Steel-type Pokémon with a magnetic nose that always points north."
+    },
+    {
+        "num": 477,
+        "img": "https://serebii.net/pokemon/art/477.png",
+        "name": "Dusknoir",
+        "type": [
+            "Ghost"
+        ],
+        "height": 2.2,
+        "weight": 106.6,
+        "description": "The evolved form of Dusclops, a Ghost-type Pokémon that guides spirits to the afterlife."
+    },
+    {
+        "num": 478,
+        "img": "https://serebii.net/pokemon/art/478.png",
+        "name": "Froslass",
+        "type": [
+            "Ice",
+            "Ghost"
+        ],
+        "height": 1.3,
+        "weight": 26.6,
+        "description": "An Ice/Ghost-type Pokémon that freezes its prey and then takes it to its lair."
+    },
+    {
+        "num": 479,
+        "img": "https://serebii.net/pokemon/art/479.png",
+        "name": "Rotom",
+        "type": [
+            "Electric",
+            "Ghost"
+        ],
+        "height": 0.3,
+        "weight": 0.3,
+        "description": "An Electric/Ghost-type Pokémon that can possess various appliances and change its form."
+    },
+    {
+        "num": 480,
+        "img": "https://serebii.net/pokemon/art/480.png",
+        "name": "Uxie",
+        "type": [
+            "Psychic"
+        ],
+        "height": 0.3,
+        "weight": 0.3,
+        "description": "A Psychic-type Pokémon that is said to have the ability to erase memories."
+    },
+    {
+        "num": 481,
+        "img": "https://serebii.net/pokemon/art/481.png",
+        "name": "Mesprit",
+        "type": [
+            "Psychic"
+        ],
+        "height": 0.3,
+        "weight": 0.3,
+        "description": "A Psychic-type Pokémon that is said to have the ability to control emotions."
+    },
+    {
+        "num": 482,
+        "img": "https://serebii.net/pokemon/art/482.png",
+        "name": "Azelf",
+        "type": [
+            "Psychic"
+        ],
+        "height": 0.3,
+        "weight": 0.3,
+        "description": "A Psychic-type Pokémon that is said to have the ability to bring about willpower."
+    },
+    {
+        "num": 483,
+        "img": "https://serebii.net/pokemon/art/483.png",
+        "name": "Dialga",
+        "type": [
+            "Steel",
+            "Dragon"
+        ],
+        "height": 5.4,
+        "weight": 683,
+        "description": "A Steel/Dragon-type Pokémon that is said to control time and govern the flow of time in the Pokémon world."
+    },
+    {
+        "num": 484,
+        "img": "https://serebii.net/pokemon/art/484.png",
+        "name": "Palkia",
+        "type": [
+            "Water",
+            "Dragon"
+        ],
+        "height": 4.2,
+        "weight": 336,
+        "description": "A Water/Dragon-type Pokémon that is said to control space and govern the spatial dimensions in the Pokémon world."
+    },
+    {
+        "num": 485,
+        "img": "https://serebii.net/pokemon/art/485.png",
+        "name": "Heatran",
+        "type": [
+            "Fire",
+            "Steel"
+        ],
+        "height": 1.7,
+        "weight": 430,
+        "description": "A Fire/Steel-type Pokémon that resides in volcanic caves and has a body made of molten lava."
+    },
+    {
+        "num": 486,
+        "img": "https://serebii.net/pokemon/art/486.png",
+        "name": "Regigigas",
+        "type": [
+            "Normal"
+        ],
+        "height": 3.7,
+        "weight": 420,
+        "description": "A Legendary Pokémon that is said to have towed continents with ropes."
+    },
+    {
+        "num": 487,
+        "img": "https://serebii.net/pokemon/art/487.png",
+        "name": "Giratina",
+        "type": [
+            "Ghost",
+            "Dragon"
+        ],
+        "height": 4.5,
+        "weight": 750,
+        "description": "A Ghost/Dragon-type Pokémon that is said to reside in a dimension known as the Distortion World."
+    },
+    {
+        "num": 488,
+        "img": "https://serebii.net/pokemon/art/488.png",
+        "name": "Cresselia",
+        "type": [
+            "Psychic"
+        ],
+        "height": 1.5,
+        "weight": 85.6,
+        "description": "A Psychic-type Pokémon that is said to represent the crescent moon."
+    },
+    {
+        "num": 489,
+        "img": "https://serebii.net/pokemon/art/489.png",
+        "name": "Phione",
+        "type": [
+            "Water"
+        ],
+        "height": 0.4,
+        "weight": 3.1,
+        "description": "A Water-type Pokémon that is said to be born in the warm seas of the Southern regions."
+    },
+    {
+        "num": 490,
+        "img": "https://serebii.net/pokemon/art/490.png",
+        "name": "Manaphy",
+        "type": [
+            "Water"
+        ],
+        "height": 0.3,
+        "weight": 1.4,
+        "description": "A Water-type Pokémon that is said to be born in the cold sea of the Northern regions."
+    },
+    {
+        "num": 491,
+        "img": "https://serebii.net/pokemon/art/491.png",
+        "name": "Darkrai",
+        "type": [
+            "Dark"
+        ],
+        "height": 1.5,
+        "weight": 50.5,
+        "description": "A Dark-type Pokémon that is said to have the ability to give nightmares."
+    },
+    {
+        "num": 492,
+        "img": "https://serebii.net/pokemon/art/492.png",
+        "name": "Shaymin",
+        "type": [
+            "Grass"
+        ],
+        "height": 0.2,
+        "weight": 2.1,
+        "description": "A Mythical Pokémon that can transform into its Sky Forme."
+    },
+    {
+        "num": 493,
+        "img": "https://serebii.net/pokemon/art/493.png",
+        "name": "Arceus",
+        "type": [
+            "Normal"
+        ],
+        "height": 3.2,
+        "weight": 320,
+        "description": "The Alpha Pokémon that is said to have shaped the universe with its 1,000 arms."
     }
+  ]
+}
